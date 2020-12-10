@@ -1,0 +1,23 @@
+{
+  "name": "datetime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc.cmd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/luxon": "^1.25.2",
+    "luxon": "^1.26.0",
+    "moment": "^2.29.1",
+    "zoon": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.5"
+  }
+}
